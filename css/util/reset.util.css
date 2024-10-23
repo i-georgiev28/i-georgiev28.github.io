@@ -1,0 +1,28 @@
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+    all: unset;
+    display: revert;
+  }
+  
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+
+  textarea {
+    white-space: revert;
+  }
