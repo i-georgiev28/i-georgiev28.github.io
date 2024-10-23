@@ -25,7 +25,7 @@ nav {
             padding: 0 clamp(30px, 2.5vmin, 2.5vmin);
             position: relative;
             text-align: center;
-            font-family: arvo;
+            font-family: "Montserrat", sans-serif;
             color: black;
 
             &:hover {
